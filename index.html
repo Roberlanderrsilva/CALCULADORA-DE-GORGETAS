@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title> Calculadora de Gorjetas</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1 class="title" style="border-radius:10px; margin:5px; padding: 5px;">Calculadora de Gorjetas</h1>
+        <div>
+
+            <form class="tipsForm" id="tipsForm">
+               
+                    <p>Quanto ficou a conta?</p>
+                    R$: <input class="Quant"  type= "number" placeholder="10.000" name="bill" id="bill" class="formInput " required></label>
+            </form>
+            <label  class="Quant"  for="serviceQual" required></label>
+            <p required>Como foi o seu serviço?</p>
+            <p><select  class="Quant"  name="serviceQual" id="serviceQual" class="formSelect" required>
+                                            <option disable selected value="0">--Escolha uma Opção</option>
+                                            <option value="0.3"> "Incrível"  - 30%</option>
+                                            <option value="0.2" > "Ótimo"  - 20%</option>
+                                            <option value="0.15" >"Bom"  - 15% </option>
+                                            <option value="0.10"> "Aceitável"  - 10%</option>
+                                            <option value="0.05">"Ruim"  - 0.5% </option>  
+                                        </select></p>
+            <label  class="Quant"  for="people" required></label>
+            <p>Quantas pessoa(as) dividirão a conta?</p>
+            <p><input   class="Quant"  type="number" placeholder="1" name="people" id="people"  padding: 15px; margin:15px;  class="formInput " required> Pessoas</p>
+            </p>
+            <button class="formSubmit" required   >Calcular</button>
+        </div>
+        <div totalTip>TOTAL Gorjeta </div required>
+            
+           Total : R$ <span id="TOTAL"> 0.00 </span>
+            <span id="each">Cada</span>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

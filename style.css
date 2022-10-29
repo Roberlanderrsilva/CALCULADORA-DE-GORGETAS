@@ -1,0 +1,84 @@
+:root {
+    --primary-color: rgb(227, 98, 231);
+    --secondary-color: dimgrey;
+    --tertiary-color: gainsboro;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+.Quant {
+    padding:8px;
+    margin: 20px auto;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: -5%;
+}
+
+
+#container {
+    height: 600px;
+    width: 400px;
+    margin: 100px auto;
+    background-color: whitesmoke;
+    box-shadow: 15px 15px 15px;
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-right: 10%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.title {
+    background: var(--tertiary-color);
+    font-size: 35px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tipsform {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+}
+
+.formInput {
+    background: white;
+    width: 40px;
+    padding: 2px 2px 2px 2px;
+}
+
+.inputForm :focus {
+    border: 15px solid var(--primary-color);
+    outline: none;
+}
+
+.formSelect {
+    width: 180px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background-color: var(--primary-color);
+    border-radius: 25px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+
+#totalTip {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+}
